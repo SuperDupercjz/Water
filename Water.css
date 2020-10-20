@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+}
+.img-info{
+    width: 100%;
+}
+.img-info h1{
+    width: 80%;
+    padding: 20px 30px 10px;
+    font-size: 38px;
+    color:#111;
+    line-height: 24px;
+    text-align: center;
+}
+.img-info p{
+    width: 80%;
+    padding: 10px 30px 20px;
+    font-size: 18px;
+    color:#111;
+    line-height: 24px;
+    text-align: center;
+}
+
+.GlacierWater{
+    text-align: center;
+    width: 100%;
+    padding: 25px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6            
+    .0px;
+    color: #111;
+    background-color: rgb(213, 235, 250);
+    line-height:45px
+}
+.GlacierWater-img{
+   width: 100%; 
+   padding-top: 5px;
+}
+@media only screen and (min-width: 768px){
+    .wrapper{
+        width: 600px;
+        margin: 0 auto;
+
+    }
+    .img-info p{
+        width: 80%;
+        padding: 10px 20px 0px 50px;
+        
+    }
+    .GlacierWater{
+        width: 100%;
+        padding: 20px 0px 10px;
+    font-size: 70px;
+    }
+        .GlacierWater-img{
+            padding-top: 5px;
+         }
+     
+}
+@media only screen and (min-width: 1000px){
+.wrapper{
+    width: 1000px;
+
+}
+
+.img-info{
+    width: 49%;
+    float: right;
+    padding-left: 20px;
+    
+}
+.GlacierWater{
+    text-align: center;
+    width: 100%;
+    padding: 25px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    color: #111;
+    background-color: rgb(213, 235, 250);
+    line-height:45px
+}
+.img-info h1{
+    width: 80%;
+    padding: 30px 30px 10px;
+    font-size: 38px;
+    color:#111;
+    line-height: 24px;
+    text-align: center;
+}
+.img-info p{
+    width: 100%;
+    padding: 20px 0px 0px 10px;
+    text-align: left;
+    
+}
+.GlacierWater-img{
+    padding-top: 5px;
+    width: 49%; 
+    float: left;
+ }
+}
