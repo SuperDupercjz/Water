@@ -4,7 +4,7 @@
 }
 .wrapper1{
     width: 100%;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(194, 194, 194);
 }
 .img-info{
     width: 100%;
@@ -40,33 +40,45 @@
 }
 .GlacierWater-img{
    width: 100%; 
-   padding-top: 5px;
+   
  
 }
 .button{
-    background-color: rgb(213, 235, 250);
+    color:  rgb(0, 195, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(255, 255, 255);
     font-size: 25px;
-    font-weight: 800;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   margin-left: 34%;
-
+    font-weight: 400;
+    font-family: poppins;
+   margin-left: 27%;
+   border: 3px solid  rgb(0, 195, 255);
+text-transform: uppercase;
+letter-spacing: 3px;
+cursor: pointer;
+border-radius: 100px;
+transition: 1.5;
 }
-@media only screen and (min-width: 768px){
-    .wrapper{
+.button:hover{
+  color: rgb(182, 104, 255);
+  border: 3px solid rgb(182, 104, 255);
+}
+@media only screen and (min-width: 700px){
+    .wrapper1{
         width: 600px;
         margin: 0 auto;
 
     }
     .img-info p{
-        width: 80%;
+        width: 100%;
         padding: 10px 20px 0px 50px;
-        margin-left: 30px;
+        margin-left: -83px;
         margin-right: 40px;
     }
     .img-info h1{
         width: 80%;
         padding: 30px 30px 10px;
-        margin-left: 30px;
+        margin-left: -10px;
         font-size: 38px;
         color:#111;
         line-height: 24px;
@@ -77,21 +89,19 @@
         padding: 20px 0px 10px;
     font-size: 55px;
     }
-        .GlacierWater-img{
-            padding-top: 5px;
-         }
+      
          .button{
-            margin-left: 40%;
+            margin-left: 29%;
+            margin-top: 10px;
 }
-
+}
 @media only screen and (min-width: 1000px){
-.wrapper{
-    width: 1000px;
-
-}
-
+    .wrapper1{
+        width: 100%;
+        background-color: rgb(56, 56, 56);
+    }
 .img-info{
-    width: 47%;
+    width: 46%;
     float: right;
    
 }
@@ -122,20 +132,20 @@
 
 }
 .GlacierWater-img{
-    padding-top: 5px;
+  
     width: 49%; 
     float: left;
 
  }
  .button{
-     margin-left: 30%;
+     margin-left: 20%;
      margin-top: 10px;
  }
 }
 @media only screen and (min-width: 1450px){
-    .wrapper{
-        width: 1000px;
-    
+    .wrapper1{
+        width: 100%;
+        background-color: rgb(56, 56, 56);
     }
     
     .img-info{
@@ -170,13 +180,61 @@
     
     }
     .GlacierWater-img{
-        padding-top: 5px;
+        
         width: 49%; 
         float: left;
     
      }
      .button{
-         margin-left: 33%;
+        margin-left:25%;
          margin-top: 10px;
      }
     }
+    
+    /* secound wrapper */
+    #wrapper2{
+        width:100%;
+        background-color: rgb(251, 255, 0);
+        
+    }
+    .springwater{
+        background-color: crimson;
+        text-align: center;
+    }
+    .springwaterimg{
+        width:100%  
+    
+    }
+    .button{
+
+    }
+    @media only screen and (min-width: 768px){
+.wrapper1{
+    background-color: rgb(125, 125, 126);
+}
+        #wrapper2{
+        width:100%;
+        background-color: rgb(33, 22, 184);   
+        }
+    }
+
+    @media only screen and (min-width: 1000px){
+        .wrapper1{
+            background-color: rgb(125, 125, 126);
+        }
+                #wrapper2{
+                width:100%;
+                background-color: rgb(73, 184, 22);   
+                margin-top: 235px;
+                }
+            }
+        @media only screen and (min-width: 1450px){
+            .wrapper1{
+                background-color: rgb(125, 125, 126);
+            }
+            #wrapper{
+            width:100%;
+            background-color: rgb(253, 0, 198);   
+            }  
+        }
+    
