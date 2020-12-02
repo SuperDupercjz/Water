@@ -32,8 +32,7 @@
     width: 100%;
     padding: 25px 10px 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 6            
-    .0px;
+    font-size: 56px;
     color: #111;
     background-color: rgb(213, 235, 250);
     line-height:45px
@@ -193,10 +192,12 @@ transition: 1.5;
     
     /* secound wrapper */
     #wrapper2{
+        
         width:100%;
         background-color: rgb(251, 255, 0);
         
     }
+   
     .springwater{
         background-color: rgb(255, 255, 255);
         text-align: center;
@@ -205,10 +206,34 @@ transition: 1.5;
         width:49%;  
     
     }
-    
-
+    .img-infotwo{
+        float:right;
+        width: 48%;
+        padding: 10px 0px;
+    }
+    .button2{
+        color:  rgb(0, 195, 255);
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-weight: 400;
+        font-family: poppins;
+       margin-left: 27%;
+       border: 3px solid  rgb(0, 195, 255);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5;
+    text-decoration:  none;
+    }
+    .button2 a{
+     
+    text-decoration:  none;
+    }
     @media only screen and (min-width: 768px){
-.wrapper1{
+.wrapper2{
     background-color: rgb(125, 125, 126);
 }
         #wrapper2{
