@@ -134,7 +134,7 @@ transition: 1.5;
 .GlacierWater-img{
   
     width: 49%; 
-    float: left;
+    float: right;
 
  }
  .button{
@@ -198,16 +198,15 @@ transition: 1.5;
         
     }
     .springwater{
-        background-color: crimson;
+        background-color: rgb(255, 255, 255);
         text-align: center;
     }
     .springwaterimg{
-        width:100%  
+        width:49%;  
     
     }
-    .button{
+    
 
-    }
     @media only screen and (min-width: 768px){
 .wrapper1{
     background-color: rgb(125, 125, 126);
