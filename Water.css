@@ -26,7 +26,9 @@
     line-height: 24px;
     text-align: center;
 }
-
+.img-info p a{
+   padding-bottom: ;
+}
 .GlacierWater{
     text-align: center;
     width: 100%;
@@ -42,15 +44,17 @@
    
  
 }
+
 .button{
     color:  rgb(0, 195, 255);
     padding-left: 5px;
     padding-right: 5px;
+   
     background-color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 400;
     font-family: poppins;
-   margin-left: 27%;
+   margin-left: 32%;
    border: 3px solid  rgb(0, 195, 255);
 text-transform: uppercase;
 letter-spacing: 3px;
@@ -62,16 +66,22 @@ transition: 1.5;
   color: rgb(182, 104, 255);
   border: 3px solid rgb(182, 104, 255);
 }
+@media only screen and (min-width: 600px){
+    .button{
+        margin-left: 32%;
+        font-size: 20px;
+    }
+}
 @media only screen and (min-width: 700px){
     .wrapper1{
-        width: 600px;
+        width: 80%;
         margin: 0 auto;
 
     }
     .img-info p{
-        width: 100%;
+        width: 95%;
         padding: 10px 20px 0px 50px;
-        margin-left: -83px;
+        margin-left: -75px;
         margin-right: 40px;
     }
     .img-info h1{
@@ -90,8 +100,9 @@ transition: 1.5;
     }
       
          .button{
-            margin-left: 29%;
+            margin-left: 31%;
             margin-top: 10px;
+            font-size: 22px;
 }
 }
 @media only screen and (min-width: 1000px){
@@ -199,6 +210,7 @@ transition: 1.5;
     }
    
     .springwater{
+        font-size: 56px;
         background-color: rgb(255, 255, 255);
         text-align: center;
     }
@@ -219,7 +231,7 @@ transition: 1.5;
         font-size: 25px;
         font-weight: 400;
         font-family: poppins;
-       margin-left: 27%;
+       margin-left: 25%;
        border: 3px solid  rgb(0, 195, 255);
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -232,12 +244,12 @@ transition: 1.5;
      
     text-decoration:  none;
     }
-    @media only screen and (min-width: 768px){
+    @media only screen and (min-width: 700px){
 .wrapper2{
     background-color: rgb(125, 125, 126);
 }
         #wrapper2{
-        width:100%;
+        width:80%;
         background-color: rgb(33, 22, 184);   
         }
     }
