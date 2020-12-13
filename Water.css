@@ -3,10 +3,13 @@
     padding: 0;
 }
 .wrapper1{
+  
     width: 100%;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(213, 235, 250);
+    margin-bottom: 20px;
 }
 .img-info{
+
     width: 100%;
     padding-left:40px;
 }
@@ -112,9 +115,36 @@ transition: 1.5;
         font-size: 25px !important;
 }
 @media only screen and (min-width: 1000px){
-    .wrapper1{
+    .img-info h1{
+        width: 80%;
+        padding: 30px 0px 10px 100px;
+        margin-left: -10px;
+        font-size: 38px;
+        color:#111;
+        line-height: 24px;
+        text-align: center;
+    }
+    .img-info{
         width: 100%;
-        background-color: rgb(56, 56, 56);
+    padding-left: 0px;
+        background-color: rgb(213, 235, 250);
+    }
+    .img-info-text{
+        padding-left: 90px !important;
+    }
+    .button{
+        margin-left: 40%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+}
+}
+@media only screen and (min-width: 1017px){
+    .wrapper1{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+       
     }
 .img-info{
     width: 46%;
@@ -131,6 +161,7 @@ transition: 1.5;
     background-color: rgb(213, 235, 250);
     line-height:45px
 }
+
 .img-info h1{
     width: 75%;
     padding: 30px 20px 10px 0px;
@@ -148,7 +179,7 @@ transition: 1.5;
 
 }
 .GlacierWater-img{
-  
+  padding-top: 30px;
     width: 49%; 
     float: right;
 
@@ -160,12 +191,13 @@ transition: 1.5;
 }
 @media only screen and (min-width: 1450px){
     .wrapper1{
-        width: 100%;
+        width: 80%;
         background-color: rgb(56, 56, 56);
+        margin-bottom: 100px;
     }
     
     .img-info{
-        width: 48%;
+        width: 45%;
         float: right;
        
     }
