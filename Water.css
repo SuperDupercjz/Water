@@ -148,7 +148,15 @@ transition: 1.5;
     }
 .img-info{
     width: 46%;
-    float: right;
+    float: left;
+    background-color: white;
+   
+}
+.img-info-text{
+    width: 46%;
+    float: left;
+    background-color:white;
+    padding-left: 20px !important;
    
 }
 .GlacierWater{
@@ -164,11 +172,12 @@ transition: 1.5;
 
 .img-info h1{
     width: 75%;
-    padding: 30px 20px 10px 0px;
+    padding: 20px 20px 10px 40px;
     font-size: 38px;
     color:#111;
-    line-height: 24px;
+    line-height: 30px;
     text-align: center;
+   letter-spacing: 2px;
 }
 .img-info p{
     width: 80%;
@@ -240,16 +249,16 @@ transition: 1.5;
     }
     
     /* secound wrapper */
-    #wrapper2{
+    #wrapper2 {
         
         width:100%;
         background-color: rgb(251, 255, 0);
         
     }
-   
-    .springwater{
-        font-size: 56px;
-        background-color: rgb(255, 255, 255);
+    
+    #wrapper2 h1{
+        font-size: 36px;
+        background-color: black;
         text-align: center;
     }
     .springwaterimg{
