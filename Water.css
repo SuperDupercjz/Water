@@ -9,9 +9,9 @@
     margin-bottom: 20px;
 }
 .img-info{
-
+text-align: center;
     width: 100%;
-    padding-left:40px;
+    padding-left: 20px;
 }
 .img-info h1{
     width: 80%;
@@ -45,7 +45,9 @@
    
  
 }
-
+.abutton{
+    
+}
 .button{
     color:  rgb(0, 195, 255);
     padding-left: 5px;
@@ -55,7 +57,6 @@
     font-size: 15px;
     font-weight: 400;
     font-family: poppins;
-   margin-left: 32%;
    border: 3px solid  rgb(0, 195, 255);
 text-transform: uppercase;
 letter-spacing: 3px;
@@ -113,6 +114,7 @@ transition: 1.5;
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 25px !important;
+}
 }
 @media only screen and (min-width: 1000px){
     .img-info h1{
@@ -250,26 +252,55 @@ transition: 1.5;
     
     /* secound wrapper */
     #wrapper2 {
-        
         width:100%;
-        background-color: rgb(251, 255, 0);
-        
+        background-color: rgb(207, 251, 228);
+        margin-bottom: 20px;
     }
     
     #wrapper2 h1{
-        font-size: 36px;
-        background-color: black;
+        font-size: 35px;
         text-align: center;
     }
+    .springwatertitle{
+font-size: 60px !important;
+    }
+    
     .springwaterimg{
-        width:49%;  
+        width:100%;  
     
     }
     .img-infotwo{
-        float:right;
-        width: 48%;
-        padding: 10px 0px;
+    
+        width: 100%;
+       
     }
+    article p {
+        text-align: center;
+        width: 80%;
+        padding-left: 50px;
+    }
+    .abuttontwo{
+        padding-top: 10px;
+padding-left: 22px;
+    }
+    .buttontwo{
+    color:  rgb(0, 195, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: poppins;
+   margin-left: 32%;
+   border: 3px solid  rgb(0, 195, 255);
+text-transform: uppercase;
+letter-spacing: 3px;
+cursor: pointer;
+border-radius: 100px;
+transition: 1.5;
+}
     .button2{
         color:  rgb(0, 195, 255);
         padding-left: 5px;
