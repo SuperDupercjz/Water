@@ -145,13 +145,14 @@ transition: 1.5;
     .wrapper1{
         width: 80%;
         margin: 0 auto;
-        margin-bottom: 25px;
+        margin-bottom: 55px;
        
     }
 .img-info{
     width: 46%;
     float: left;
     background-color: white;
+    margin-bottom: 20px;
    
 }
 .img-info-text{
@@ -200,6 +201,16 @@ transition: 1.5;
      margin-top: 10px;
  }
 }
+@media only screen and (min-width: 1342px){
+    .img-info{
+        width: 46%;
+        float: left;
+        background-color: white;
+        margin-bottom: 40px;
+       
+    }
+}
+
 @media only screen and (min-width: 1450px){
     .wrapper1{
         width: 80%;
@@ -210,7 +221,7 @@ transition: 1.5;
     .img-info{
         width: 45%;
         float: right;
-       
+        margin-bottom: 40px;
     }
     .GlacierWater{
         text-align: center;
@@ -428,7 +439,7 @@ transition: 1.5;
                  
                   line-height:45px
               }
-              }
+              
                 .img-infotwo{
                 line-height: 25px;
                     width: 49%;
@@ -441,6 +452,21 @@ transition: 1.5;
                
                 }
                 
+            }
+            @media only screen and (min-width: 1300px){
+                .springwatertitle{
+                    font-size: 80px;
+                    margin-top: 160px !important;
+                    margin-bottom: 60px;
+                    
+                    width: 100%;
+                    padding: 25px 10px 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 56px;
+                    color: #111;
+                   
+                    line-height:45px
+                }
             }
         @media only screen and (min-width: 1450px){
             .wrapper1{
