@@ -2,8 +2,17 @@
     margin: 0;
     padding: 0;
 }
+#navBar{
+    
+}
+.wrapper0{
+    margin-top: 40px;
+}
+#mainHeaderPic{
+    width: 100%;
+}
 .wrapper1{
-  
+
     width: 100%;
     background-color: rgb(213, 235, 250);
     margin-bottom: 20px;
