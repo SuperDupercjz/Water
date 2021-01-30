@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
 }
-#navBar{
+#nav ul{
+   
+}
+#navBar li{
     
+display:inline;
 }
 .wrapper0{
     margin-top: 40px;
